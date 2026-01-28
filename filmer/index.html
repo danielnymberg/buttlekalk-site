@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Filmer – Buttlekalk AB</title>
+  <meta name="description" content="Filmer om kalkbränning i Buttle på Gotland. Intervjuer och information om hur kalkbränningen går till.">
+  <link rel="icon" href="../images/logo.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="site-header" style="position: relative; background: var(--bg-dark);">
+    <div class="container header-inner">
+      <a href="/" class="header-brand">
+        <img src="../images/logo.png" alt="Buttlekalk logotyp">
+      </a>
+      <nav>
+        <button class="hamburger" aria-label="Meny" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+          <span></span><span></span><span></span>
+        </button>
+        <ul class="nav-links">
+          <li><a href="/">Hem</a></li>
+          <li><a href="/filmer/">Filmer</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Filmer -->
+  <section class="film-section">
+    <div class="container">
+      <div class="section-header">
+        <h2>Filmer om Buttle och kalkbränning</h2>
+        <p>På Hantverkslaboratoriets Youtube-sida finns två filmer med intervjuer och information om hur kalkbränningen går till.</p>
+      </div>
+      <div class="video-wrapper">
+        <iframe src="https://www.youtube.com/embed/ltDpsC2XeEs" title="Film om kalkbränning 1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+      </div>
+      <div class="video-wrapper">
+        <iframe src="https://www.youtube.com/embed/9DmRQEK5pN4" title="Film om kalkbränning 2" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2026 Buttlekalk AB</p>
+    </div>
+  </footer>
+
+</body>
+</html>
